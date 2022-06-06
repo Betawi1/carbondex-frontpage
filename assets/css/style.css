@@ -433,3 +433,54 @@ Media queries
 
 @media (max-width: 1199.98px) {  }
 
+
+/*/////////////////////////////////////////
+iframe
+////////////////////////////////////////*/
+
+
+
+
+#earth {
+    border: 2px solid black;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+
+    background: url(global-warming.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  #scaled-frame {
+    width: 500px;
+    height: 230px;
+    border: 0px;
+    
+  }
+  
+  .rss-feed {
+      width: 100%;
+  }
+
+
+
+  @media (max-width: 480px) {
+    #scaled-frame {
+      zoom: 1.15;
+      max-width: 100%;
+      padding: 0px 0px;
+      justify-content: center;
+      display: flex;
+      margin-left: 0px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+
+    .rss-feed {
+        width: auto;
+        display: flex;
+  }
+
+}
